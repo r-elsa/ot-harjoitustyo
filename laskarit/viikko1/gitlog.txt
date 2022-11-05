@@ -1,4 +1,3 @@
-
 elsar@DESKTOP-QL99NO0:/mnt/c/users/elsar/dev/hy2022/ot_viikko1/tiedostoja$ git log --stat | cat
 commit d9448213514410fea92d2c27a29dd4dfc32adf2b
 Author: Elsa <elsaryynanen@outlook.com>
