@@ -1,5 +1,11 @@
 
-#The largest heading
+# Ohjelmistotekniikka, harjoitustyö
+
+## Tehtävät
+
+### Viikko 1
 
 
-This is the **README**- file. This file will *introduce* and *explain* the project.
+[gitlog.txt](https://github.com/r-elsa/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+
+[komentorivi.txt](https://github.com/r-elsa/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
