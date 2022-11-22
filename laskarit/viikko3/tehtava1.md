@@ -2,37 +2,38 @@
 
 ```mermaid
  classDiagram
-      Monopoli-peli "1" --> "2" Noppa
-      Monopoli-peli "1" --> "2..8" Pelaaja
-      Monopoli-peli "1" --> "1" Pelilauta
+      Monopolipeli "1" --> "2" Noppa
+      Monopolipeli "1" --> "2..8" Pelaaja
+      Monopolipeli "1" --> "1" Pelilauta
       Pelaaja "1" --> "1" Pelinappula
       Pelilauta "1" --> "40" Ruutu
-      Pelinappula "1" --> "1" Ruutu	
-      class Monopoli-peli{
+      Pelinappula "*" --> "1" Ruutu
+      class Monopolipeli{
           id
           
       }
       class Noppa{
           id
+	  arvo
           
       }
 	class Pelaaja{
-          id
+          nimi
           
           
       }
 	class Pelilauta{
-          id
-          
+	  id
+                    
           
       }
 	class Ruutu{
-          id
-          seuraavaruutu 
+          ruutuarvo
+          seuraava_ruutuarvo
           
       }
 	 class Pelinappula{
-          id
+          nimi
           
           
       }
