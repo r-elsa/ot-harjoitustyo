@@ -1,0 +1,1 @@
+## file added to invoicingApp/tasks.py as poetry is installed only there
